@@ -1,3 +1,3 @@
 [submodule "PPT"]
 	path = PPT
-	url = D:/Source_Code/BIOS/EDK2/
+	url = git@github.com:d9930239/PPT.git

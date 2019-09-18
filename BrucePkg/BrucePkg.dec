@@ -1,0 +1,40 @@
+## @file
+# 
+#  I don't what should I type
+#
+##
+[Defines]
+		DEC_SPECIFICATION	=	0x00010005
+		PACKAGE_NAME		=	BrucePkg
+		PACKAGE_GUID		=	89ea6fbb-906e-4280-9bf3-562cd49b688c
+		PACKAGE_VERSION		=	0.1
+[Includes]
+		Include	#Package	Include	directory
+[LibraryClasses]
+		##	Library	class	name	is	same	to	library	header	file	name
+
+
+[Guids]
+#GuidCName	=	{xxxxxxxx,xxxx,xxxx,{xx,xx,xx,xx,xx,xx,xx,xx}},
+
+[Ppis]
+#PpiGuidCName	=	{xxxxxxxx,xxxx,xxxx,{xx,xx,xx,xx,xx,xx,xx,xx}},
+
+[Protocols]
+#ProtocolGuidCName	=	{xxxxxxxx,xxxx,xxxx,{xx,xx,xx,xx,xx,xx,xx,xx}},
+
+[PcdsFeatureFlag]	#FeatureFlag	PCD	is	BOOLEAN	type,	the	value	is	TRUR	or	FALSE.
+#PcdTokenSpaceCGuidName.PcdName|TRUE|BOOLEAN|TokenNumber
+#PcdTokenSpaceCGuidName.PcdName|FALSE|BOOLEAN|TokenNumber
+
+[PcdsFixedAtBuild]
+#PcdTokenSpaceCGuidName.PcdName|DefaultValue|DataType|TokenNumber
+
+[PcdsPatchableInModule]
+#PcdTokenSpaceCGuidName.PcdName|DefaultValue|DataType|TokenNumber
+
+[PcdsDynamic]
+#PcdTokenSpaceCGuidName.PcdName|DefaultValue|DataType|TokenNumber
+
+[PcdsDynamicEx]
+#PcdTokenSpaceCGuidName.PcdName|DefaultValue|DataType|TokenNumber

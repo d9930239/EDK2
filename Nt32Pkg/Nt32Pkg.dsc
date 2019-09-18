@@ -536,6 +536,9 @@
       FileHandleLib|MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib.inf
   }
 
+  #include BrucePkg for build 
+  BrucePkg/Applicate/Bruce_hellow.inf
+
 ###################################################################################################
 #
 # BuildOptions Section - Define the module specific tool chain flags that should be used as

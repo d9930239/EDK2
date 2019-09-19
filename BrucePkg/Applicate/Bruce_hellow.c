@@ -9,7 +9,7 @@
 #include <Library/UefiLib.h>
 #include <Library/UefiApplicationEntryPoint.h>
 
-#define ID "Bruce"
+#define ID L"Bruce"
 EFI_STATUS
 EFIAPI
 Bruce_hellow_world(

@@ -17,8 +17,13 @@ Bruce_hellow_world(
   IN EFI_SYSTEM_TABLE  *SystemTable
 )
 {
+    if (FeaturePcdGet(PcdBruceHelloworldfunction)){
+        Print (L"hellow 123 321 by define %s\n",ID);
+    }else if(PcdGet32(PcdBruceHelloworldPrintVaule)>=1){
+        Print ((CHAR16*)PcdGetPtr(PcdHelloWorldPrintString));
+        //Print (L"PK wang hen chan\n");
+    }
 
-    Print (L"hellow 123 321 %s\n",ID);
     return EFI_SUCCESS;
 }
 

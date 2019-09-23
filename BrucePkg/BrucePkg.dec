@@ -15,7 +15,8 @@
 
 
 [Guids]
-#GuidCName	=	{xxxxxxxx,xxxx,xxxx,{xx,xx,xx,xx,xx,xx,xx,xx}},
+gBrucePkgTokenSpaceGuid	={0x4d4d9c90, 0x56fc, 0x4751, {0xb1, 0xdf, 0x0f, 0x78, 0x31, 0x85, 0x3d, 0xca}}
+
 
 [Ppis]
 #PpiGuidCName	=	{xxxxxxxx,xxxx,xxxx,{xx,xx,xx,xx,xx,xx,xx,xx}},
@@ -24,17 +25,30 @@
 #ProtocolGuidCName	=	{xxxxxxxx,xxxx,xxxx,{xx,xx,xx,xx,xx,xx,xx,xx}},
 
 [PcdsFeatureFlag]	#FeatureFlag	PCD	is	BOOLEAN	type,	the	value	is	TRUR	or	FALSE.
-#PcdTokenSpaceCGuidName.PcdName|TRUE|BOOLEAN|TokenNumber
-#PcdTokenSpaceCGuidName.PcdName|FALSE|BOOLEAN|TokenNumber
+## Indicates if HelloWorld Application will print the verbose information.
+#  This PCD is a sample to explain FeatureFlag PCD usage.<BR><BR>
+#   TRUE  - HelloWorld Application will print the verbose information.<BR>
+#   FALSE - HelloWorld Application will not print the verbose information.<BR>
+# @Prompt Enable HelloWorld print.
+gBrucePkgTokenSpaceGuid.PcdBruceHelloworldfunction|FALSE|BOOLEAN|0x22000001
 
 [PcdsFixedAtBuild]
 #PcdTokenSpaceCGuidName.PcdName|DefaultValue|DataType|TokenNumber
 
+#PcdTokenSpaceCGuidName.PcdName|DefaultValue|DataType|TokenNumber
+## This PCD defines the Vaule to print hello world string.
+#  This PCD is a sample to explain UINT32 PCD usage.
+# @Prompt HellowWorld print Vaule.
+gBrucePkgTokenSpaceGuid.PcdBruceHelloworldPrintVaule|0x1|UINT32|0x22000002
+
+## This PCD defines the HelloWorld print string.
+#  This PCD is a sample to explain String typed PCD usage.
+# @Prompt HelloWorld print string.
+gBrucePkgTokenSpaceGuid.PcdHelloWorldPrintString|L"DEC PCD Print Hello World!\n"|VOID*|0x22000003
 [PcdsPatchableInModule]
 #PcdTokenSpaceCGuidName.PcdName|DefaultValue|DataType|TokenNumber
 
 [PcdsDynamic]
-#PcdTokenSpaceCGuidName.PcdName|DefaultValue|DataType|TokenNumber
+
 
 [PcdsDynamicEx]
-#PcdTokenSpaceCGuidName.PcdName|DefaultValue|DataType|TokenNumber

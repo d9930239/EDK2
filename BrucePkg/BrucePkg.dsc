@@ -45,10 +45,9 @@
   
 [LibraryClasses.common.UEFI_APPLICATION]
   MemoryAllocationLib|MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib.inf
-  
-##[PcdsFeatureFlag]
 
-##[PcdsFixedAtBuild]
+[PcdsFixedAtBuild]
+gBrucePkgTokenSpaceGuid.PcdHelloWorldPrintString|L"DSC PCD Print Hello World!\n"|VOID*
 
 [Components]
 #	All	libraries,	drivers	and	applications	are	added	here	to	be	compiled

@@ -1,0 +1,38 @@
+##
+[Defines]
+		INF_VERSION					=	0x00010005
+		BASE_NAME					=	Bruce_hellow
+		FILE_GUID					=	03de6289-a10e-40f7-b5f3-8250479b6005
+		MODULE_TYPE					=	UEFI_APPLICATION
+		VERSION_STRING				=	1.0
+		ENTRY_POINT					=	Bruce_hellow_world
+
+#
+#	The	following	information	is	for	reference	only	and	not	required	by	the
+#	build	tools.
+#
+#	VALID_ARCHITECTURES	=	IA32	X64	IPF	EBC
+#
+##
+
+[Sources]
+    Bruce_hellow.c
+##
+[Packages]
+    BrucePkg/BrucePkg.dec
+    MdePkg/MdePkg.dec
+
+##
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+  PcdLib
+    
+[FeaturePcd]    
+gBrucePkgTokenSpaceGuid.PcdBruceHelloworldfunction
+
+[FixedPcd]
+gBrucePkgTokenSpaceGuid.PcdBruceHelloworldPrintVaule
+gBrucePkgTokenSpaceGuid.PcdHelloWorldPrintString
+[Pcd]

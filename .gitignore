@@ -1,4 +1,6 @@
-/Build/
+Build/
 tags/
 .DS_Store
-
+*.pyc
+*.db
+BaseTools/

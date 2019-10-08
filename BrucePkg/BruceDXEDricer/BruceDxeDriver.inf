@@ -1,0 +1,30 @@
+##
+#basic test
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010015
+  BASE_NAME                      = BruceTestDxeDriver
+  FILE_GUID                      = 499d3ee1-d23b-4633-9513-db3b186a7d0d
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = BruceTestDxeDriverEntryPoint
+
+[Sources]
+  BruceDxeDriver.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  BrucePkg/BrucePkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  
+
+[Guids]
+
+
+[Protocols]
+
+
+[Depex]

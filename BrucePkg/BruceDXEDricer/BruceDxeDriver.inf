@@ -19,7 +19,8 @@
 
 [LibraryClasses]
   UefiDriverEntryPoint
-  
+  UefiBootServicesTableLib
+  UefiLib
 
 [Guids]
 
@@ -28,3 +29,4 @@
 
 
 [Depex]
+TRUE

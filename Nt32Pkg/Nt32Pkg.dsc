@@ -536,6 +536,10 @@
       FileHandleLib|MdePkg/Library/UefiFileHandleLib/UefiFileHandleLib.inf
   }
 
+  # include brucePkg
+  BrucePkg/BruceDXEDricer/BruceDxeDriver.inf
+  BrucePkg/Applicate/Bruce_hellow.inf
+
 ###################################################################################################
 #
 # BuildOptions Section - Define the module specific tool chain flags that should be used as

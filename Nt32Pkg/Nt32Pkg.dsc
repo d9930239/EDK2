@@ -537,7 +537,7 @@
   }
 
   # include brucePkg
-  BrucePkg/BruceDXEDricer/BruceDxeDriver.inf
+  BrucePkg/BruceDXEDriver/BruceDxeDriver.inf
   BrucePkg/Applicate/Bruce_hellow.inf
 
 ###################################################################################################

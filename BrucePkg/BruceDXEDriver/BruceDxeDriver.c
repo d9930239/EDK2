@@ -1,6 +1,8 @@
-/*
-    Bruce dxe driver entry point
-*/
+/** @file
+ 
+  Bruce dxe driver entry point
+
+**/
 #include <uefi.h> 
 #include <Library/UefiLib.h> 
 #include <Library/DebugLib.h>

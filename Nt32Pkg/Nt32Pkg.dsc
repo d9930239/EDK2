@@ -540,6 +540,8 @@
   BrucePkg/BruceDXEDriver/BruceDxeDriver.inf
   BrucePkg/Applicate/Bruce_hellow.inf
 
+  BrucePkg/BruceDXEDriver/BruceBodyCodeDXE/BruceBodyCode.inf
+  BrucePkg/BruceDXEDriver/BrucePrivacyDXE/BrucePrviacyDXE.inf
 ###################################################################################################
 #
 # BuildOptions Section - Define the module specific tool chain flags that should be used as

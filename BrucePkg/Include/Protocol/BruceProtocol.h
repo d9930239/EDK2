@@ -13,20 +13,20 @@
   {0x91e70715, 0x4958, 0x4f9d, {0x92, 0x72, 0x21, 0x72, 0x98, 0x1c, 0x69, 0xf4}}
 
 
-typedef
-EFI_STATUS
-(EFIAPI *Bruce_API_test) (
-  IN  EFI_Bruce_Protocol      *This
-);
+typedef struct _EFI_Bruce_Protocol_ EFI_Bruce_Protocol;
+//typedef
+//EFI_STATUS
+//(EFIAPI *Bruce_API_test) (
+//  IN  EFI_Bruce_Protocol      *This
+//);
 
-typedef struct _EFI_Bruce_Protocol_ {
-    Char8                  *name[1];
+ struct _EFI_Bruce_Protocol_ {
+    CHAR16                  *name[20];
     UINT8                   Age;
     UINT8                   Weight;
     UINT8                   High;
-    Bruce_API_test          BruceAPI;
-}EFI_Bruce_Protocol
-
+    //Bruce_API_test          BruceAPI;
+};
 
 
 

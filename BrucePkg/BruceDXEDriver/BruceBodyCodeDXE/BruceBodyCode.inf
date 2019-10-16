@@ -1,0 +1,32 @@
+##
+#locate BruceDXE Protocol
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010015
+  BASE_NAME                      = BruceBodyCode
+  FILE_GUID                      = c678650f-f140-40e9-8652-10b03ea14baa
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = BruceBodyCodeEntryPoint
+
+[Sources]
+  BruceBodyCode.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  BrucePkg/BrucePkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  UefiBootServicesTableLib
+  UefiLib
+
+[Guids]
+
+
+[Protocols]
+gBruceDxeProtocolGuid
+
+[Depex]
+TRUE

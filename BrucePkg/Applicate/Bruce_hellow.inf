@@ -28,7 +28,7 @@
   UefiApplicationEntryPoint
   UefiLib
   PcdLib
-    
+  UefiBootServicesTableLib  
 [FeaturePcd]    
 gBrucePkgTokenSpaceGuid.PcdBruceHelloworldfunction
 
@@ -36,3 +36,9 @@ gBrucePkgTokenSpaceGuid.PcdBruceHelloworldfunction
 gBrucePkgTokenSpaceGuid.PcdBruceHelloworldPrintVaule
 gBrucePkgTokenSpaceGuid.PcdHelloWorldPrintString
 [Pcd]
+
+[Protocols]
+gBruceDxeProtocolGuid
+
+[Depex]
+TRUE

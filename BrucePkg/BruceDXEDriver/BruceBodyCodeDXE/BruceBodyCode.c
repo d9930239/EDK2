@@ -29,12 +29,12 @@ BruceBodyCodeEntryPoint(
     DEBUG ((DEBUG_INFO, "%d \n",Bruce_Protocol->Weight));
     DEBUG ((DEBUG_INFO," ==>LocateProtocol %a %d: \n",__FUNCTION__, __LINE__));
 
-    Bruce_Protocol->Weight = 70;
+    //Bruce_Protocol->Weight = 70;
     
-    DEBUG ((DEBUG_INFO, "%s \n",Bruce_Protocol->name[1]));
-    DEBUG ((DEBUG_INFO, "%d \n",Bruce_Protocol->Age));
-    DEBUG ((DEBUG_INFO, "%d \n",Bruce_Protocol->High));
-    DEBUG ((DEBUG_INFO, "%d \n",Bruce_Protocol->Weight));
-    Print( L"Print %d\n",Bruce_Protocol->Age);
+    DEBUG ((DEBUG_INFO, "name %s \n",Bruce_Protocol->name[1]));
+    DEBUG ((DEBUG_INFO, "Age %d \n",Bruce_Protocol->Age));
+    DEBUG ((DEBUG_INFO, "High %d \n",Bruce_Protocol->High));
+    DEBUG ((DEBUG_INFO, "Weight %d \n",Bruce_Protocol->Weight));
+    //Print( L"Print %d\n",Bruce_Protocol->Age);
     return EFI_SUCCESS;
 }

@@ -371,6 +371,7 @@
   Nt32Pkg/WinNtAutoScanPei/WinNtAutoScanPei.inf
   Nt32Pkg/WinNtFirmwareVolumePei/WinNtFirmwareVolumePei.inf
   Nt32Pkg/WinNtThunkPPIToProtocolPei/WinNtThunkPPIToProtocolPei.inf
+  BrucePkg/BrucePEI/BrucePeimSample.inf
   MdeModulePkg/Core/DxeIplPeim/DxeIpl.inf
   ##
   #  DXE Phase modules
@@ -542,6 +543,8 @@
 
   BrucePkg/BruceDXEDriver/BruceBodyCodeDXE/BruceBodyCode.inf
   BrucePkg/BruceDXEDriver/BrucePrivacyDXE/BrucePrviacyDXE.inf
+
+
 ###################################################################################################
 #
 # BuildOptions Section - Define the module specific tool chain flags that should be used as

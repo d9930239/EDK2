@@ -193,6 +193,8 @@ INF  MdeModulePkg/Universal/Variable/Pei/VariablePei.inf
 INF  Nt32Pkg/WinNtThunkPPIToProtocolPei/WinNtThunkPPIToProtocolPei.inf
 INF  MdeModulePkg/Core/DxeIplPeim/DxeIpl.inf
 
+INF  BrucePkg/BrucePEI/BrucePeimSample.inf
+
   ##
   #  DXE Phase modules
   ##
@@ -298,6 +300,11 @@ INF FatPkg/EnhancedFatDxe/Fat.inf
 
 INF MdeModulePkg/Logo/LogoDxe.inf
 INF MdeModulePkg/Universal/LoadFileOnFv2/LoadFileOnFv2.inf
+
+INF BrucePkg/BruceDXEDriver/BrucePrivacyDXE/BrucePrviacyDXE.inf
+INF BrucePkg/BruceDXEDriver/BruceBodyCodeDXE/BruceBodyCode.inf
+INF BrucePkg/Applicate/Bruce_hellow.inf
+
 ################################################################################
 #
 # Rules are use with the [FV] section's module INF type to define

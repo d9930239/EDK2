@@ -193,8 +193,9 @@ INF  MdeModulePkg/Universal/Variable/Pei/VariablePei.inf
 INF  Nt32Pkg/WinNtThunkPPIToProtocolPei/WinNtThunkPPIToProtocolPei.inf
 INF  MdeModulePkg/Core/DxeIplPeim/DxeIpl.inf
 
-INF  BrucePkg/BrucePEI/BrucePeimSample.inf
-
+INF BrucePkg/BrucePEI/BrucePeiMInstall/BrucePeimPpiInstall.inf  
+INF BrucePkg/BrucePEI/BrucePeiMlocate/BrucePeimPpiLocate.inf
+#INF BrucePkg/BrucePEI/BrucePeimSample.inf
   ##
   #  DXE Phase modules
   ##

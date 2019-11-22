@@ -371,7 +371,12 @@
   Nt32Pkg/WinNtAutoScanPei/WinNtAutoScanPei.inf
   Nt32Pkg/WinNtFirmwareVolumePei/WinNtFirmwareVolumePei.inf
   Nt32Pkg/WinNtThunkPPIToProtocolPei/WinNtThunkPPIToProtocolPei.inf
-  BrucePkg/BrucePEI/BrucePeimSample.inf
+  ###Bruce PEIM###
+  BrucePkg/BrucePEI/BrucePeiMInstall/BrucePeimPpiInstall.inf
+  BrucePkg/BrucePEI/BrucePeiMlocate/BrucePeimPpiLocate.inf
+
+  #BrucePkg/BrucePEI/BrucePeimSample.inf
+  ###Bruce PEIM###
   MdeModulePkg/Core/DxeIplPeim/DxeIpl.inf
   ##
   #  DXE Phase modules

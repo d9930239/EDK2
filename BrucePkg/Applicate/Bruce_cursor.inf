@@ -1,0 +1,35 @@
+##
+[Defines]
+		INF_VERSION					=	0x00010005
+		BASE_NAME					=	Bruce_cursor
+		FILE_GUID					=	15b1b874-11fd-488f-807b-0ea043333231
+		MODULE_TYPE					=	UEFI_APPLICATION
+		VERSION_STRING				=	1.0
+		ENTRY_POINT					=	Bruce_cursor
+
+#
+#	The	following	information	is	for	reference	only	and	not	required	by	the
+#	build	tools.
+#
+#	VALID_ARCHITECTURES	=	IA32	X64	IPF	EBC
+#
+##
+
+[Sources]
+    Bruce_cursor.c
+##
+[Packages]
+    BrucePkg/BrucePkg.dec
+    MdePkg/MdePkg.dec
+
+##
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+    
+[FeaturePcd]    
+
+[FixedPcd]
+
+[Pcd]

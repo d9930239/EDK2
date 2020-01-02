@@ -538,6 +538,7 @@
 
   #include BrucePkg for build 
   BrucePkg/Applicate/Bruce_hellow.inf
+  BrucePkg/Applicate/Bruce_cursor.inf
 
 ###################################################################################################
 #

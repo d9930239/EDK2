@@ -55,3 +55,4 @@ gBrucePkgTokenSpaceGuid.PcdHelloWorldPrintString|L"DSC PCD Print Hello World!\n"
 #	Module	INF	file	path	are	specified	from	package	directory.
 #	BrucePkg/Library/NameOneLib/NameOneLib.inf
 BrucePkg/Applicate/Bruce_hellow.inf
+BrucePkg/Applicate/Bruce_cursor.inf

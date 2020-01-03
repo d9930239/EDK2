@@ -27,9 +27,13 @@
 [LibraryClasses]
   UefiApplicationEntryPoint
   UefiLib
+  DebugLib
     
 [FeaturePcd]    
 
 [FixedPcd]
 
 [Pcd]
+
+[Depex]
+TRUE
